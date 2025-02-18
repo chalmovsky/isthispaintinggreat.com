@@ -1,0 +1,9 @@
+.wrapper {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: x-small;
+    max-width: 90%;
+}

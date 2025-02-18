@@ -1,0 +1,50 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding: 24px;
+    justify-content: center;
+    gap: 16px;
+}
+.pageTitle {
+    padding-top: 12px;
+    font-size: medium;
+    align-self: flex-start;
+    color: #857F72;
+    padding-left: 24px;
+}
+
+.rulesWrapper {
+    padding: 24px;
+    background-color: #FAF9F7;
+    border-radius: 24px;
+    list-style-type: none; /* Remove bullets */
+    margin: 0; /* Remove margins */
+}
+
+.ruleItem {
+    font-size: large;
+    color: #625D52;
+}
+
+.link {
+    background: #A081D9;
+    border: #34126F;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: x-large;
+    color: #27241d;
+    opacity: 0.9;
+}
+
+.link:hover {
+    opacity: 1;
+    transition: opacity 80ms;
+}

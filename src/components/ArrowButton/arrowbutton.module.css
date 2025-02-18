@@ -1,0 +1,21 @@
+.arrowButton {
+    border: none;
+    color: #423D33;
+    padding: 4px;
+    opacity: 0.8;
+}
+
+.arrowButton:hover {
+    opacity: 1;
+}
+
+.arrowButton:focus {
+    opacity: 1;
+    transition: opacity 80ms;
+}
+
+.arrowButton:disabled {
+    align-items: center;
+    pointer-events: none;
+    opacity: 0.2;
+}

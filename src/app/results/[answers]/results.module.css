@@ -1,0 +1,66 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    max-width: 400px;
+    padding: 16px;
+    gap: 16px;
+    margin-top: 72px;
+
+}
+
+.mainContent {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAF9F7;
+    padding: 16px;
+    border-radius: 24px;
+}
+
+.title {
+    font-size: small;
+    color: #857F72;
+}
+
+.resultsText {
+    font-size: large;
+    color: #504A40;
+}
+
+.aboutThisWebsite {
+    display: flex;
+    width: 400px;
+    padding-bottom: 50px;
+}
+
+
+
+.retryOrReadFAQ {
+    font-size: medium;
+    padding: 16px;
+    width: 400px;
+}
+
+@media (max-width: 450px) {
+    .aboutThisWebsite {
+        width: 300px;
+    }
+    .mainContent {
+        width: 300px;
+    }
+    .retryOrReadFAQ {
+        width: 300px;
+    }
+
+}
+
+.link {
+    color: #2CB1BC;
+}
+
+.resultNumber {
+    /*color: #421987;*/
+}

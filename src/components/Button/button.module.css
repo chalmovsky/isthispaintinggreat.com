@@ -1,0 +1,59 @@
+.button {
+    display: flex;
+    /*background: transparent;*/
+    background-color: #A081D9;
+    opacity: 0.8;
+    font-size: large;
+    /*border: black;*/
+    border: #34126F;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 100px;
+    /*color: black;*/
+    color: #27241d;
+    overflow: hidden;
+    align-items: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 6px;
+    padding-left: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    /*flex-basis: 200px;*/
+}
+
+.button:hover {
+    opacity: 1;
+    transition: opacity 80ms;
+    cursor: pointer;
+}
+
+.button:focus {
+    opacity: 1;
+    transition: opacity 80ms;
+}
+
+.button:disabled {
+    align-items: center;
+    pointer-events: none;
+    opacity: 0.2;
+}
+
+.buttonShowNotClickableContent {
+    box-sizing: border-box;
+    cursor: default;
+    pointer-events: none;
+    background-color: transparent;
+    opacity: 1;
+    border: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 100px;
+    color: #27241d;
+    text-decoration: underline solid #8662C7 3px;
+    -webkit-text-decoration-line:  underline !important;
+    -webkit-text-decoration-color: #8662C7 !important;
+    -webkit-text-decoration-style: solid !important;
+    -webkit-text-decoration-thickness: 3px !important;
+}
+
