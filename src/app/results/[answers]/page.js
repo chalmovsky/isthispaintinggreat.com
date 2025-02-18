@@ -73,7 +73,13 @@ const questionsAndAnswers = [
   },
   {
     question: "Where can I leave some feedback ?",
-    answer: "You can reach me on X @jakubchalmovsky :)",
+    answer: [
+      "You can check out my homepage ",
+      <a key={1} href="https://chalmovsky.com">
+        chalmovsky.com
+      </a>,
+      " there is an email :)",
+    ],
   },
 ];
 
@@ -105,7 +111,7 @@ export default async function Results({ params }) {
       "\n" +
       "by 'user' " +
       anonIP +
-      "\n",
+      "\n"
   );
 
   // TODO refine the collection of images

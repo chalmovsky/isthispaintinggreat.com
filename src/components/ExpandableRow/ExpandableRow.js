@@ -21,7 +21,14 @@ function ExpandableRow({ shownText, hiddenText }) {
         )}
       </button>
 
-      {expanded && <div className={styles.hiddenWrapper}>{hiddenText}</div>}
+      {expanded && (
+        <div
+          // dangerouslySetInnerHTML={{ __html: hiddenText }}
+          className={styles.hiddenWrapper}
+        >
+          {hiddenText}
+        </div>
+      )}
     </div>
   );
 }
