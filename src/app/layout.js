@@ -29,8 +29,8 @@ export default function RootLayout({ children }) {
         <main className={styles.homeWrapper}>{children}</main>
         {process.env.NODE_ENV === "production" && (
           <Script
-            src={"https://stats.isthispaintinggreat.com/script.js"}
-            data-website-id="80f24dc8-5106-4fd9-9ea1-7ff96dce254b"
+            src={"https://umami.chalmovsky.com/script.js"}
+            data-website-id="2bc372fb-b6c6-4f4d-8f2e-a9febe43303b"
           />
         )}
       </body>
