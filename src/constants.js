@@ -8,6 +8,4 @@ const RULES = [
   "At the end you will receive a result",
 ];
 
-export const longestAnswersLength = "";
-
 export default RULES;

@@ -7,6 +7,8 @@ import paintingNumberFour from "../../../public/todays-paintings/painting-number
 import paintingNumberFive from "../../../public/todays-paintings/painting-number-4.jpg";
 
 export default async function NowLook() {
+  //TODO: when the paintings are moved to some other hosting, i will have many more of them
+  // and i will do this dynamically
   const paintings = [
     paintingNumberOne,
     paintingNumberTwo,

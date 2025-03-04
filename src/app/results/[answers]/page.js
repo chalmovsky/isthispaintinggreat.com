@@ -101,8 +101,8 @@ export default async function Results({ params }) {
   }
   const submittedAnswers = params.answers.split("%2C");
 
-  const numberOfCorrectAnswers =
-    await getNumberOfCorrectAnswers(submittedAnswers);
+  const numberOfCorrectAnswers = await getNumberOfCorrectAnswers(submittedAnswers);
+  //TODO: submittedAnswers.txt -> this needs to be moved out of here to some more persistent storage
   writeToFileAppendWithISODate(
     "submittedAnswers.txt",
     submittedAnswers +
@@ -114,7 +114,6 @@ export default async function Results({ params }) {
       "\n"
   );
 
-  // TODO refine the collection of images
   return (
     <div className={styles.wrapper}>
       <div className={styles.mainContent}>

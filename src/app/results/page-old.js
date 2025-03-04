@@ -53,6 +53,5 @@ function Results() {
   );
 }
 
-// commented out, it's just for reference - how to the POST request
-// this page worked just fine
+// commented out, it's just for reference
 //export default Results;

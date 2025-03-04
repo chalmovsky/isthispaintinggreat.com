@@ -45,10 +45,7 @@ function PaintingsBrowser({ paintings }) {
     <div className={styles.wrapper}>
       {isImageLoading && <Loader className={styles.loader} />}
       <div className={styles.imageWrapper}>
-        {/*TODO dynamically create images, eager instead of lazy download them (use priority to download number 1 (0) first) */}
-        {/*prob it's okay to use just display hidden (or classname e.g. 'invisible' https://stackoverflow.com/questions/71760365/preload-image-urls-using-new-image) to make the browser download it see more here: https://nextjs.org/docs/app/api-reference/components/image#loading*/}
-        {/*probably could be good to rework this to use the blob database, setup the vercel pause spend hook and be done with it*/}
-        {/*pbut anyway this should be done after lunch if i'm bored, currently I will do it manually by copying random images to the public fodler, then pushing and building it*/}
+        {/* TODO: probably could be good to rework this to use some kind of blob database*/}
 
         <Image
           key={currentlyViewing}

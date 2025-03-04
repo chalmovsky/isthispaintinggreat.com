@@ -12,7 +12,7 @@ import styles from "./arrowbutton.module.css";
  */
 function ArrowButton({ pointTo, ...delegated }) {
   if (pointTo !== "left" && pointTo !== "right") {
-    throw error("valid values for point to are: 'left' or 'right' ");
+    throw new Error("valid values for point to are: 'left' or 'right' ");
   }
   return (
     <Button {...delegated} className={styles.arrowButton}>
